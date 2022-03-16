@@ -11,7 +11,7 @@
 }
 
 .title {
-    font-size: 10rem;
+    font-size: clamp(8rem, 9rem, 10rem);
     font-family: 'Playfair Display', serif;
     margin-bottom: 5rem;
 }
@@ -23,14 +23,14 @@ body {
 
 .main-label {
     font-family: 'Libre Franklin', serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #707070;
     margin-bottom: 3rem;
 }
 
 .sub-label {
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 1.6rem;
+    font-size: clamp(1.3rem, 1.3rem, 1.6rem);
     font-style: italic;
     margin-top: 0.5rem;
 }
@@ -70,13 +70,13 @@ body {
 }
 
 .big-a {
-    font-size: 25rem;
+    font-size: clamp(20rem, 20rem, 25rem);
 }
 
 .headers {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
     width: 30%;
 }
@@ -89,17 +89,17 @@ body {
 }
 
 .header-1 {
-    font-size: 70pt;
+    font-size: clamp(50pt, 50pt, 70pt);
     margin-top: 3rem;
 }
 
 .header-2 {
-    font-size: 50pt;
+    font-size: clamp(30pt, 40pt, 50pt);
     margin-top: 3rem;
 }
 
 .header-3 {
-    font-size: 30pt;
+    font-size: clamp(20pt, 30pt, 30pt);
     margin-top: 3rem;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .body-text {
-    font-size: 1.8rem;
+    font-size: clamp(1.3rem, 1.4rem, 1.8rem);
     color: #161716;
 }
 
@@ -182,8 +182,8 @@ body {
 }
 
 .square {
-    width: 15rem;
-    height: 15rem;
+    width: clamp(10rem, 12rem, 15rem);
+    height: clamp(10rem, 12rem, 15rem);
 }
 
 .green-primary {
@@ -227,7 +227,7 @@ body {
 }
 
 .material-icons.md-48 { 
-    font-size: 64px; 
+    font-size: clamp(48px, 56px, 64px); 
 }
 
 .material-icons.gray1 {
@@ -254,6 +254,6 @@ body {
 }
 
 .icon-grid {
-    width: 40%;
+    width: clamp(40%, 45%, 49%);
     margin-bottom: 5rem;
 }
